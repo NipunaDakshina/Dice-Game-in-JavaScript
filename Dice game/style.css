@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:sans-serif;
+  padding: 60px 50px;
+  background-color:thistle;
+  overflow-y: hidden;
+
+}
+
+.main-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.dice {
+  background-color:rgba(150, 150, 150, 0.4);
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border: 2px solid black;
+}
+
+.die {
+  width: 100px;
+}
+
+.btn1 {
+  background-color: yellowgreen;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn1:disabled {
+  background-color: #aaa;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.btn2 {
+  
+  background-color: rgba(243, 23, 49, 0.81);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn2:disabled {
+  background-color: #aaa;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.player {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.player-1 p {
+  background-color: rgba(232, 77, 77, 0.913);
+  padding: 20px 40px;
+
+}
+
+.player-2 p {
+  background-color: rgba(30, 0, 255, 0.4);
+  padding: 20px  40px;
+}
+
+.player p {
+  font-size: 64px;
+  font-weight: 900;
+  color: red;
+}
